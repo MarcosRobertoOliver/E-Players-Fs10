@@ -38,13 +38,6 @@ body{
 }
 
 
-.card-body {
-    flex: 1 1 auto;
-    padding: 1rem 1rem;
-    background-color: #050505;
-    color: white;
-}
-
 .header-flex { 
   display: flex;
   justify-content: space-between;
@@ -83,12 +76,11 @@ head .logo{
 /* banner */
 
 .banner{
-    width: 100%;
+    width: 100%; /* não precisaria */
     height: 600px;
     background-image: url(../images/banner_pilotos.png);
     background-size: cover;
     background-repeat: no-repeat;
-
     background-color: blueviolet;
     
 }
@@ -106,7 +98,6 @@ head .logo{
     justify-content: space-between;
     width: 500px;
     height: 300px;
-
     /* border: 1px solid white; */
 
 }
@@ -120,14 +111,13 @@ head .logo{
 .banner .banner-info .info-text{
     color: white;
     font-size: 22px;
-    margin-top: -50px;
     text-align: center;
-    
-
+    margin-top: -50px;
 }
+
+
 .banner .banner-info .info-link{
-    border-radius: 10px;
-  
+    border-radius: 10px;  
     border: 1px solid #E71A3F;
     background-color: #E71A3F;
     color: white;
@@ -141,6 +131,31 @@ head .logo{
     justify-content: center;
     align-items: center;
 }
+/* SESSÃO PRODUTOS */
+
+.produtos {
+    background-color: #1e1c21;
+
+}
+
+.produtos h2 {
+    font-family: 'Roboto-Medium';
+    margin-bottom: 20px;
+}
+.card {
+    max-width: 230px;
+    margin-bottom: 20px;
+    background-image: linear-gradient;
+
+ }
+ .card .car-title {
+    font-family: 'Roboto-Medium';
+ }
+ .bordas {
+    border: solid green;
+ }
+
+ 
 /* patrocinadores */
 .patrocinados {
     background-color:#1e1c21 ;
