@@ -1,3 +1,27 @@
+/* 
+    Flexbox
+
+    Flexbox Froggy - joguinho do sapo
+    https://flexboxfroggy.com/
+
+    CSS Trics
+    https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+    Mozzila MDN
+    https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Flexbox
+    https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+
+    Origamid
+    https://origamid.com/projetos/flexbox-guia-completo/
+    
+    As 8 propriedades de background do css
+    https://www.maujor.com/tutorial/propriedade-css-para-estilizacao-de-background.php
+
+    Responsividade e media querie
+
+
+*/
+
 
 /* imports de fonts */
 @font-face {
@@ -35,14 +59,13 @@ body {
 
 /* Customização do Bootstrap */
 
-/* CSS PARA O DESKTOP */
+/* CSS FEITO PARAO DESKTOP */
 
 
 
 .container-grid {
     max-width: 1200px;
     margin: 0 auto;
-
     /* border: 1px solid salmon; */
 }
 
@@ -207,7 +230,6 @@ header .menu-bars {
 
 
 /* apagar */
-
 .bordas {
     border: 3px solid green;
 }
@@ -215,15 +237,14 @@ header .menu-bars {
 
 /* BREAKPOINTS */
 /* 
-    Celulares 0 - 767px
-    Tablets 768px -  991px
-    Desktop >= 992px -  1199px
-    Telas Grandes >= 1200px -  1920px
+    celulares 0 - 767px
+    tablets 768px - 991px
+    desktop >= 992px - 1199px
+    telas grandes >= 1200px
 
 */
 
 /* DESKTOP tablets 992px - 1199px */
-
 @media all and (max-width: 1199px) {
 
     .container,
@@ -233,7 +254,6 @@ header .menu-bars {
 }
 
 /* TABLETS tablets 768px - 991px*/
-
 @media all and (max-width: 991px) {
     header .logo {
         width: 230px;
@@ -242,16 +262,12 @@ header .menu-bars {
 
     
     /* navbar */
-
     header .menu {
         position: fixed;
-
         /* referência viewport */
         top: 0px;
-
         /* coordenadas de posicinoamento */
         left: -80%;
-
         z-index: 100; /* controle de camada */
 
         opacity: 0; /* invisível  */
