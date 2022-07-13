@@ -238,10 +238,18 @@ header .menu-bars {
 
 /* BREAKPOINTS */
 /* 
+<<<<<<< HEAD
     celulares 0- 767px
     tablets 768px -991px
     desktop >= 992px -1199px
     telas grandes >= 1200px
+=======
+    celulares 0 - 767px
+    tablets 768px - 991px
+    desktop >= 992px - 1199px
+    telas grandes >= 1200px - 1920px
+
+>>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15
 */
 
 /* DESKTOP tablets 992px - 1199px */
@@ -267,6 +275,7 @@ header .menu-bars {
     header .menu {
         position: fixed;
 
+<<<<<<< HEAD
         /* referência viewport */
 
         top: 0px;
@@ -277,6 +286,9 @@ header .menu-bars {
         z-index: 100;    /* controle de camada */
 
         opacity: 0;         /* invisível  */
+=======
+        opacity: 0; /* invisível  acima sera visivel*/
+>>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15
         flex-direction: column;
         justify-content: center;
         align-items: stretch;
@@ -286,10 +298,13 @@ header .menu-bars {
 
         padding: 20px 50px;
         background-color: rgba(195, 22, 22, 0.98);
-        border-radius: 0 0 0 90px;
-        transition: left 0.4s, opacity 0.5s;
+        border-radius: 0 0 0 80px;
+        transition: left 0.4s, opacity 0.9s;
     }
-
+    .mostraEscondeMenu {
+        left: 0 !important;
+        opacity: 1 !important; /* visível */
+    }
     header .menu a {
         margin-bottom: 20px;
         padding: 20px;
@@ -300,15 +315,19 @@ header .menu-bars {
 
     header .menu-bars {
         display: block;
-        width: 40px;
+        width: 45px;
         margin-right: 15px;
         color: white;
     }
     
+<<<<<<< HEAD
     .mostraEscondeMenu {
         left: 0 !important;
         opacity: 1 !important;      /* visível */
     }
+=======
+    
+>>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15
 
     .patrocinados {
         display: none;
@@ -335,7 +354,7 @@ header .menu-bars {
     header .menu a {
         margin-bottom: 10px;
         padding: 10px;
-        border-left: 2px dotted #AAB0AE;
+        border-left: 1px dotted #AAB0AE;
         font-size: 1rem;
     }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // uso do jQuery
 
 $(document).ready(function () {
@@ -23,3 +24,15 @@ function abreFechaMenu() {
 }
 
 
+=======
+function abreFechaMenu() {
+
+    // navbar -tag nav
+
+    let navbar = document.querySelector(".menu");
+
+    navbar.classList.toggle("mostraEscondeMenu");
+    
+    // console.log(navbar);
+}
+>>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15

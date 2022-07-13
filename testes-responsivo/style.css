@@ -39,7 +39,10 @@ p {
 }
 
 /* desktops */
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15
 @media screen and (min-width: 992px) {
     .container-grid {
         max-width: 900px;
@@ -55,8 +58,12 @@ p {
     }
 }
 
+<<<<<<< HEAD
 /* notebooks ou telas grandes */
 
+=======
+/* notebooks ou telas largas */
+>>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15
 @media screen and (min-width: 1200px) {
     body {
         background-color: bisque;
@@ -64,7 +71,10 @@ p {
 }
 
 /* Tela full hd (1920px) */
+<<<<<<< HEAD
 
+=======
+>>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15
 @media screen and (min-width: 1440px) {
     
 }
