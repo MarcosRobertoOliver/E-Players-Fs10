@@ -3,37 +3,32 @@
 
     Responsividade e media querie
 
+
 */
 
 
 /* imports de fonts */
-
 @font-face {
-
     font-family: "Roboto-Thin";
     src: url(../fonts/Roboto/Roboto-Thin.ttf);
 }
 
 @font-face {
-
     font-family: "Roboto-Light";
     src: url(../fonts/Roboto/Roboto-Light.ttf);
 }
 
 @font-face {
-
     font-family: 'Roboto-Regular';
     src: url(../fonts/Roboto/Roboto-Regular.ttf);
 }
 
 @font-face {
-
     font-family: 'Roboto-Medium';
     src: url(../fonts/Roboto/Roboto-Medium.ttf);
 }
 
 /* Reset de página */
-
 * {
     margin: 0;
     padding: 0;
@@ -51,24 +46,20 @@ body {
 /* CSS FEITO PARAO DESKTOP */
 
 
-.container-grid {
 
+.container-grid {
     max-width: 1200px;
     margin: 0 auto;
     /* border: 1px solid salmon; */
 }
 
 .container {
-
     max-width: 1200px;
 }
 
 /* cabeçalho */
-
 .header-flex {
-
     /* flex conteiner */
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,7 +80,6 @@ header .menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     /* border: 1px solid white; */
     width: 60%;
     height: 100%;
@@ -110,9 +100,7 @@ header .menu-bars {
 
 .banner {
     width: 100%;
-
     /*  não precisaria!! */
-
     height: 600px;
     background-image: url(../images/banner_pilotos.png);
     background-size: cover;
@@ -121,7 +109,6 @@ header .menu-bars {
 }
 
 /* centraliza a informação do banner */
-
 .banner .banner-info-box {
     display: flex;
     justify-content: flex-end;
@@ -135,7 +122,6 @@ header .menu-bars {
     justify-content: space-between;
     width: 500px;
     height: 250px;
-
     /* border: 1px solid white; */
 }
 
@@ -171,7 +157,6 @@ header .menu-bars {
 }
 
 /* patrocinadores */
-
 .patrocinados {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -186,7 +171,6 @@ header .menu-bars {
 }
 
 /* SESSÃO PRODUTOS */
-
 .produtos {
     background-color: #1E1C21;
     padding: 30px 0;
@@ -230,7 +214,6 @@ header .menu-bars {
 
 
 /* apagar */
-
 .bordas {
     border: 3px solid green;
 }
@@ -238,22 +221,14 @@ header .menu-bars {
 
 /* BREAKPOINTS */
 /* 
-<<<<<<< HEAD
-    celulares 0- 767px
-    tablets 768px -991px
-    desktop >= 992px -1199px
-    telas grandes >= 1200px
-=======
     celulares 0 - 767px
     tablets 768px - 991px
     desktop >= 992px - 1199px
     telas grandes >= 1200px - 1920px
 
->>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15
 */
 
 /* DESKTOP tablets 992px - 1199px */
-
 @media all and (max-width: 1199px) {
 
     .container,
@@ -263,7 +238,6 @@ header .menu-bars {
 }
 
 /* TABLETS tablets 768px - 991px*/
-
 @media all and (max-width: 991px) {
     header .logo {
         width: 230px;
@@ -274,21 +248,13 @@ header .menu-bars {
     /* navbar */
     header .menu {
         position: fixed;
-
-<<<<<<< HEAD
         /* referência viewport */
-
         top: 0px;
-
         /* coordenadas de posicinoamento */
-
         left: -80%;
-        z-index: 100;    /* controle de camada */
+        z-index: 100; /* controle de camada */
 
-        opacity: 0;         /* invisível  */
-=======
         opacity: 0; /* invisível  acima sera visivel*/
->>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15
         flex-direction: column;
         justify-content: center;
         align-items: stretch;
@@ -320,14 +286,7 @@ header .menu-bars {
         color: white;
     }
     
-<<<<<<< HEAD
-    .mostraEscondeMenu {
-        left: 0 !important;
-        opacity: 1 !important;      /* visível */
-    }
-=======
     
->>>>>>> bb3221979f3c0eb021c5794ec668d7619dc13a15
 
     .patrocinados {
         display: none;
@@ -336,7 +295,6 @@ header .menu-bars {
 
 
 /* SMARTPHONES celulares 0 - 767px */
-
 @media all and (max-width: 767px) {
     
     .header-flex {
