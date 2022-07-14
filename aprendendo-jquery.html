@@ -25,7 +25,10 @@
     <input type="text" id="celular">
     <br>
 
-    <!-- biblioteca jquey -->
+    
+
+    <!-- biblioteca jQuery -->
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- jquery mask https://igorescobar.github.io/jQuery-Mask-Plugin/ -->
@@ -34,12 +37,14 @@
 
 
     <!-- javascript do programador -->
+    
     <script>
-        // quando a página estiver disponível/carregada
+        // quando a página estiver disponível ou for carregada
         
         $(document).ready(function(){
 
-            //sintaxe jQuery utiliza seletores CSS
+            //sintaxe jQuery que utiliza seletores CSS
+
             $(".btnHelloNome").click(function () {
                    let nome = $("#nome").val()
                    $("#texto").text(`${nome} !`)
@@ -49,13 +54,13 @@
                 $("h1 span").text("!");
             })
 
-            // $("button, input").mousemove(function(){
-            //     hello();
-            // });
+           
 
-            // ************** USO DO JQUERY MASK ******************
+            // ********** USO DO JQUERY MASK**************
+
+
             $("#telefone").mask("(00) 0000-0000")
-            $("#celular").mask("(00) 00000/0000")
+            $("#celular").mask("(00) 00000-0000")
 
         })
 
