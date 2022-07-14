@@ -1,3 +1,76 @@
+<<<<<<< HEAD
+/* imports de fontes */
+@font-face {
+    font-family:"Roboto-Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) ;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body {
+    /* display-flex para centralizar o formulário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    /* border: 10px solid green; */
+
+    
+    background-color: #3a404e;
+    color: white ;
+    font-family: "Roboto-Regular";
+
+}
+
+/* mobile first */
+
+.container {
+
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.voltar {
+   margin-bottom: 60px; 
+
+}
+.titulo {
+    margin-bottom: 100px;
+}
+.linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ababab;
+}
+
+
+.linha:first-of-type {/* simplesmente muda a cor da borda/linha no primeiro elemento  */
+    border-bottom: 1px solid #a0824d;
+}
+
+
+.linha input {
+    height: 40px;
+    width: 90%;
+    color: #a0824d ;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.linha input::placeholder {
+   color: #ababab; 
+=======
 /* imports de fontes */
 @font-face {
     font-family:"Roboto-Regular";
@@ -34,4 +107,5 @@ body {
     max-width: 320px;
     margin: 0 auto;
     border: 1px solid red;
+>>>>>>> 5c5d177c93160f1356beddb156e9a729bb6f0009
 }
