@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* imports de fontes */
 @font-face {
     font-family:"Roboto-Regular";
@@ -69,4 +70,42 @@ body {
 
 .linha input::placeholder {
    color: #ababab; 
+=======
+/* imports de fontes */
+@font-face {
+    font-family:"Roboto-Regular";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) ;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+body {
+    /* display-flex para centralizar o formulário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    border: 10px solid green;
+
+    
+    background-color: #3a404e;
+    color: white ;
+    font-family: "Roboto-Regular";
+
+}
+
+/* mobile first */
+
+.container {
+
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+    border: 1px solid red;
+>>>>>>> 5c5d177c93160f1356beddb156e9a729bb6f0009
 }
