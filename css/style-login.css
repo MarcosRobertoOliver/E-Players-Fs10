@@ -60,7 +60,7 @@ body {
 .linha input {
     height: 40px;
     width: 90%;
-    color: #a0824d ;
+    color: #ababab ;
     background-color: transparent;
     border: none;
     outline: none;
@@ -70,13 +70,13 @@ body {
 .linha input::placeholder {
    color: #ababab;
 }
-
-.mensagem{
-
+.mensagem {
     text-align: center;
     color: #c67187;
+    height: 25px;
 
 }
+
 .signin {
     display: block;
     color: white;
@@ -88,7 +88,7 @@ body {
     border-radius: 25px;
     font-size: 1.2rem;
     font-family: "Roboto-Regular";
-    box-shadow: 0px 0px 15px rgb(0, 0, 0/ 50%);  
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 50%);  
 
 }
 
